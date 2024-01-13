@@ -1,0 +1,1 @@
+sudo apt update && apt -y upgrade; apt install ubuntu-desktop build-essential xscreensaver screen tmux nano vim xfce4 desktop-base dbus-x11 telegram-desktop && wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'
